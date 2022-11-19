@@ -12,7 +12,7 @@
 
 ## Installation
 
-app requires [composer](https://getcomposer.org/download/) to run.
+App requires [composer](https://getcomposer.org/download/) to run.
 
 Install all the dependencies.
 
