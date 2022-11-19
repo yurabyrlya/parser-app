@@ -63,6 +63,12 @@ class ACMEParserTest extends TestCase
      * @return void
      */
     public function testSaveFile() {
-        $this->assertFileExists('products.json');
+        $this->parser->saveToFile(
+            $this->parser->toJson(
+                $this->parser->getProductList()
+            )
+        , 'test.json');
+        $this->assertFileExists('test.json');
+        unlink('test.json');
     }
 }
