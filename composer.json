@@ -2,7 +2,8 @@
     "require": {
         "php": ">=7.4",
         "imangazaliev/didom": "^1.18",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
