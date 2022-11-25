@@ -98,7 +98,7 @@ abstract class SiteParser implements ParserInterface
      * @param string $sectionIndex
      * @return void
      */
-    protected function delay(string $sectionIndex){
+    protected function delay(string $sectionIndex): void {
         echo "Parsing product section: $sectionIndex" . PHP_EOL;
         if (self::$delay){
             sleep(self::$delay);
