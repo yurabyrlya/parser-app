@@ -22,7 +22,7 @@ abstract class SiteParser implements ParserInterface
     private string $url;
 
     /**
-     * add delay in sec between requests to remote server
+     * Add a delay in sec between requests to remote server
      * @var int
      */
     public static int $delay = 1;
